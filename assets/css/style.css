@@ -1,0 +1,123 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+header {
+    background-color: #c750f7;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+.bio {
+    background-color: #333;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.discografia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.album {
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+    color: #ffffff;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+    height: auto;
+}
+
+.album:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color: #c750f7;
+    color: #ffffff;
+    text-align: center;
+    padding: 1px 0;
+}
+
+.redes-sociais {
+    list-style: none;
+    padding: 0;
+    color: #ffffff;
+}
+
+.redes-sociais li {
+    display: inline;
+    margin-right: 10px;
+
+}
+
+.redes-sociais a {
+    color: #333;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
+}
+
+.contato {
+    text-align: center;
+    line-height: 10px;
+    color: #ffffff;
+}
+
+.turne {
+    color: #ffffff;
+    text-align: center;
+    background-color: #3b3b3b;
+    padding-top: 10px;
+    
+}
+
+.videos {
+    color: #ffffff;
+    margin: 23px;
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        font-size: 16px;
+     
+    }
+  
+    .menu {
+        display: none;
+    }
+}
